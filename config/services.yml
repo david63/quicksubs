@@ -1,0 +1,19 @@
+imports:
+    - { resource: alias.yml }
+
+services:
+    _defaults:
+        autowire: true
+        bind:
+            $root_path: '%core.root_path%'
+            $php_ext: '%core.php_ext%'
+
+    david63.quicksubs.listener:
+        class: david63\quicksubs\event\listener
+        tags: [{ name: event.listener }]
+
+    david63.quicksubs.main.controller:
+        class: david63\quicksubs\controller\main_controller
+
+    david63.quicksubs.core.functions:
+        class: david63\quicksubs\core\functions
