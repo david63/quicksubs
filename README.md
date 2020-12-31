@@ -2,11 +2,13 @@
 
 An extension to add bookmarks to the Quick Links menu.
 
-[![Build Status](https://travis-ci.com/david63/quicksubs.svg?branch=master)](https://travis-ci.com/david63/quicksubs)
+[![Build Status](https://github.com/david63/quicksubs/workflows/Tests/badge.svg)](https://github.com/phpbb-extensions/david63/quicksubs)
 [![License](https://poser.pugx.org/david63/quicksubs/license)](https://packagist.org/packages/david63/quicksubs)
 [![Latest Stable Version](https://poser.pugx.org/david63/quicksubs/v/stable)](https://packagist.org/packages/david63/quicksubs)
 [![Latest Unstable Version](https://poser.pugx.org/david63/quicksubs/v/unstable)](https://packagist.org/packages/david63/quicksubs)
 [![Total Downloads](https://poser.pugx.org/david63/quicksubs/downloads)](https://packagist.org/packages/david63/quicksubs)
+[![codecov](https://codecov.io/gh/david63/quicksubs/branch/master/graph/badge.svg?token=D2500PgRex)](https://codecov.io/gh/david63/quicksubs)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/59902be2665c476dbd7951858c9ff769)](https://www.codacy.com/manual/david63/quicksubs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=david63/quicksubs&amp;utm_campaign=Badge_Grade)
 
 ## Minimum Requirements
   * phpBB 3.3.0

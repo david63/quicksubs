@@ -7,6 +7,7 @@ services:
         bind:
             $root_path: '%core.root_path%'
             $php_ext: '%core.php_ext%'
+        public: true			
 
     david63.quicksubs.listener:
         class: david63\quicksubs\event\listener
